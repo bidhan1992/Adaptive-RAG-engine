@@ -1,0 +1,22 @@
+{
+  "name": "ai-knowledge-assistant-node",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "index": "node scripts/indexData.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/openai": "^0.4.8",
+    "@qdrant/js-client-rest": "^1.15.0",
+    "@xenova/transformers": "^2.17.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "pg": "^8.16.3",
+    "zod": "^3.25.76"
+  }
+}
